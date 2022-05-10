@@ -25,7 +25,7 @@ export default function BeanieDetail() {
     
     // history(beanieBaby.link);
   }
-  console.log('here in bean info', beanieBaby);
+
   return (
     <>
       {/* Feel free to uncomment and use the below code--but you'll need to figure out how to keep it from blowing up on load */}

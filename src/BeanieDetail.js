@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getSingleBeanie } from './services/fetch-utils';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 export default function BeanieDetail() {
   // you'll need to track the current beanieBaby in state
   // you'll need to get the route param using the appropriate react router hook
   const params = useParams();
   const [beanieBaby, setBeanieBaby] = useState({});
-  const history = useHistory();
 
 //TODO add loading spinner
   useEffect(() => {
